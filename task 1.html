@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+</head>
+<body>
+
+    <header>
+        <h1>Student Registration Form</h1>
+        <hr>
+    </header>
+
+    
+        <form>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+            <br><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="password" placeholder="Create a password" required>
+            <br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male" required> Male<br>
+            <input type="radio" name="gender" value="Female"> Female<br>
+            <input type="radio" name="gender" value="Other"> Other
+            <br><br>
+
+            <label>Technical Skills:</label><br>
+            <input type="checkbox" name="skills[]" value="HTML"> HTML<br>
+            <input type="checkbox" name="skills[]" value="CSS"> CSS<br>
+            <input type="checkbox" name="skills[]" value="JavaScript"> JavaScript<br>
+            <input type="checkbox" name="skills[]" value="SQL"> SQL<br>
+            <input type="checkbox" name="skills[]" value="PYTHON"> PYTHON<br>
+            <input type="checkbox" name="skills[]" value="C#"> C#
+            <br><br>
+
+            <label for="dept">Department Of Engineering:</label>
+            <select id="dept" name="department" required>
+                <option value="">Select your department</option>
+                <option>Computer Science</option>
+                <option>Industrial</option>
+                <option>Information Technology</option>
+                <option>Electronic</option>
+                <option>Mechanical</option>
+                <option>IT</option>
+                <option>Automation & Robics</option>
+                <option>Civil</option>
+            </select>
+            <br><br>
+
+            <label for="msg">Notes:</label><br>
+            <textarea id="msg" name="message" rows="5" cols="50"
+                      placeholder="Enter your message here......"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit Registration">
+
+        </form>
+    
+
+    <hr>
+
+    <footer>
+      <p>&copy;Student Registration Portal.23-53029-3_ASMA AKTHER</p>
+    </footer>
+
+</body>
+</html>
