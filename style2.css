@@ -1,0 +1,117 @@
+/* ============================= */
+/* Part A: CSS Units */
+/* ============================= */
+
+/* Group Selector */
+h1, h2 {
+    font-family: Arial, sans-serif;
+    color: darkblue;
+}
+
+/* Absolute Units */
+h1 {
+    font-size: 30px;      /* px */
+    margin-bottom: 1cm;   /* cm */
+}
+
+h3 {
+    font-size: 18px;      /* px */
+}
+
+/* Relative Units */
+body {
+    font-size: 1rem;      /* rem */
+    margin: 5%;           /* % */
+    padding: 2em;         /* em */
+}
+
+.lists-section {
+    width: 80%;           /* % */
+    padding: 2em;         /* em */
+    background-color: #f0f8ff;
+}
+
+.links-section {
+    height: 30vh;         /* vh */
+    padding: 1.5em;
+    background-color: #e6ffe6;
+}
+
+.image-section {
+    width: 60%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+/* Image size using px */
+img {
+    width: 300px;         /* px */
+    height: auto;
+}
+
+/* ============================= */
+/* Part B: Selector Types */
+/* ============================= */
+
+/* Descendant Selector */
+div p {
+    color: darkred;
+    font-size: 1.2em;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+}
+
+/* ============================= */
+/* Part C: Pseudo-Classes */
+/* ============================= */
+
+/* Hover */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Active */
+a:active {
+    color: green;
+}
+
+/* Focus */
+input[type="text"]:focus {
+    border: 3px solid blue;
+    background-color: #ffffcc;
+}
+
+/* ============================= */
+/* Part D: Contact Info Styling */
+/* ============================= */
+
+.contact-section {
+    width: 50%;
+    margin: 2em auto;
+    padding: 1.5em;
+    border: 2px solid #000;
+    background-color: #fff0f5;
+    text-align: center;
+}
+
+.contact-section input[type="text"] {
+    width: 80%;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #0080ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #0059b3;
+}

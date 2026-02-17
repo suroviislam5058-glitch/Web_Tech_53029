@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lab Task 03 - CSS Box Model and Display Properties using semantic layout and student table">
+    <meta name="keywords" content="HTML, CSS, Box Model, Display, Table, Semantic">
+    <meta name="author" content="Asma Akther">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model and Display Example</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <!-- ================= Header Section ================= -->
+    <header>
+        <h1>Student Information Portal</h1>
+    </header>
+
+    <!-- ================= Navigation Section ================= -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Students</a> |
+        <a href="#">Departments</a>
+    </nav>
+
+    <hr>
+
+    <!-- ================= Main Content ================= -->
+    <main>
+
+        <!-- Part A: Box Model Demonstration -->
+        <section id="boxModelDemo">
+            <h2>Part A: Box Model Demonstration</h2>
+
+            <div class="box box1">
+                <p>This is Box 1 (Default content-box)</p>
+            </div>
+
+            <div class="box box2">
+                <p>This is Box 2 with different padding and margin</p>
+            </div>
+
+            <div class="box box3">
+                <p>This is Box 3 using border-box sizing</p>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <!-- Part B: Display Properties -->
+        <section id="displayDemo">
+            <h2>Part B: Display Properties</h2>
+
+            <div class="display-block">This div uses display: block</div>
+            <span class="display-inline">This span uses display: inline</span>
+            <span class="display-inline-block">This span uses display: inline-block</span>
+            <p class="display-none">This paragraph uses display: none (hidden)</p>
+            <p class="visibility-hidden">This paragraph uses visibility: hidden (invisible but space reserved)</p>
+
+        </section>
+
+        <hr>
+
+        <!-- Part C: Student Table -->
+        <section id="students">
+            <h2>Student Information Table</h2>
+            <table border="1">
+                <caption><strong>Student Academic Records</strong></caption>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>CGPA</th>
+                </tr>
+                <tr>
+                    <td>23-53029-3</td>
+                    <td>Asma Akther</td>
+                    <td>Computer Science And Engineering</td>
+                    <td>3.88</td>
+                </tr>
+                <tr>
+                    <td>23-52626-2</td>
+                    <td>S.K.Farhan Alvi</td>
+                    <td>Aeronautical Engineering</td>
+                    <td>3.93</td>
+                </tr>
+                <tr>
+                    <td>23-52991-3</td>
+                    <td>MD.Abu Siam</td>
+                    <td>Civil Engineering</td>
+                    <td>3.92</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- ================= Footer Section ================= -->
+    <footer>
+        <p>&copy; 2026 University Student Information Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

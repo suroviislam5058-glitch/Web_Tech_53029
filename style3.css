@@ -1,0 +1,97 @@
+ * ============================= */
+/* Part A: Box Model Demonstration */
+/* ============================= */
+
+.box {
+    border: 2px solid black;
+    padding: 1em;
+    margin: 1em 0;
+    width: 300px;
+    height: 100px;
+    background-color: #f0f8ff;
+}
+
+/* Different values for spacing */
+.box1 {
+    padding: 1em;
+    margin: 1em;
+    background-color: #d1f0d1;
+}
+
+.box2 {
+    padding: 2em;
+    margin: 2em;
+    
+    background-color: #f0d1d1;
+}
+
+.box3 {
+    padding: 1em;
+    margin: 1em;
+    background-color: #d1d9f0;
+    border: 8px dashed navy;
+    box-sizing: border-box; /* box-sizing applied */
+}
+
+/* ============================= */
+/* Part B: Display Properties */
+/* ============================= */
+
+.display-block {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #007acc;
+    margin-bottom: 10px;
+}
+
+.display-inline {
+    display: inline;
+    background-color: #ffebcc;
+    padding: 5px;
+    border: 1px solid #ff9900;
+}
+
+.display-inline-block {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    background-color: #ccffcc;
+    border: 1px solid #00cc00;
+    margin: 5px 0;
+}
+
+.display-none {
+    display: none;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
+/* ============================= */
+/* General Styling */
+/* ============================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 2em;
+    background-color: #f7f7f7;
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+table {
+    width: 80%;
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
